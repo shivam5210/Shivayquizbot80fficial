@@ -1,0 +1,28 @@
+{
+   "name": "QuizBot",
+   "description": "shivay",
+   "repository": "https://github.com/shivam5210/Shivayquizbot80fficial",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }     
+  ],      
+   "env": {
+      "API_TOKEN": {
+         "description": "id",
+         "value": ""
+      },
+      "ADMIN_ID": {
+         "description": "admin ID Here.",
+         "value": ""
+      }
+   }
+}
